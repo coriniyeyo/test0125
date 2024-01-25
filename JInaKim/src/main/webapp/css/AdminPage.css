@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body {
+	width: 1052px;
+	margin: 0 auto;
+}
+
+.header1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+} 
+
+.header1 > button {
+	width: 90px;
+}
+
+table {
+	border-collapse: collapse;
+	table-layout: auto;
+	width: 100%;
+	table-layout: fixed;
+}
+
+th {
+	border: 1px solid grey;
+	text-align: center;
+}
+
+td {
+	border: 1px solid grey;
+	text-align: center;
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+	width: 1052px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_left {
+	font-weight: bold;
+}
+
+.product {
+	display: flex;
+	justify-content: space-between;
+}
+
+.element {
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.element > div {
+	text-align: center;
+}
+
+footer {
+	float: right;
+	margin-top: 46px;
+}
+
+.add_img {
+	cursor: pointer;
+}
